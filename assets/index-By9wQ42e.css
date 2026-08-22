@@ -18,3 +18,11 @@
 .card .price-note{font-family:var(--sans);text-align:center;color:#372b1eb3;font-size:.8rem;font-weight:400;margin:0 0 14px}
 
 .card .option-coverage{border-top:1px solid var(--rule-soft);font-family:var(--sans);text-align:center;color:#372b1ec7;margin:0 0 18px;padding:16px 0 0;font-size:.95rem;font-weight:300;line-height:1.7}
+
+.addons{max-width:640px;margin:36px auto 0;border:1px solid var(--burgundy);background:var(--white);padding:26px 30px 12px}
+.addons-title{font-family:var(--sans);text-align:center;color:var(--burgundy);font-size:1.05rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase;margin:0 0 14px}
+.addons ul{list-style:none;margin:0;padding:0}
+.addons li{display:flex;justify-content:space-between;align-items:baseline;gap:16px;border-top:1px solid var(--rule-soft);padding:12px 2px;font-family:var(--sans)}
+.addons li:first-child{border-top:none}
+.addons li span{color:#372b1ec7;font-size:.98rem;font-weight:300}
+.addons li strong{color:var(--burgundy);font-size:1.05rem;font-weight:600;white-space:nowrap}
