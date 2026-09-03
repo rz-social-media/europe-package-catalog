@@ -94,7 +94,7 @@
 
 /* Tuscany-style footer */
 .t-footer{background:#4b0b10;color:#f3e8de99;display:flex;justify-content:space-between;padding:24px 6vw;font-family:"Cormorant Garamond",serif;font-size:.85rem;letter-spacing:.08em;text-transform:uppercase}
-@media(max-width:800px){.t-footer{flex-direction:column;gap:7px;text-align:center;font-size:.72rem}}
+@media(max-width:800px){.t-footer{flex-direction:column;gap:7px;text-align:center;font-size:.72rem;justify-content:center}.t-footer span:first-child{display:none}}
 
 /* Instagram icon in hero nav */
 .t-nav-left{display:flex;align-items:center;gap:16px}
